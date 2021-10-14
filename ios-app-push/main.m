@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 int main(int argc, char * argv[]) {
+    [MPAnalysisHelper enableCrashReporterService]; // USE MPAAS CRASH REPORTER
     NSString * appDelegateClassName;
     @autoreleasepool {
         // Setup code that might create autoreleased objects goes here.

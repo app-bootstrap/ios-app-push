@@ -2,6 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>Product Version</key>
+	<string>1.0.0.0</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -20,6 +27,13 @@
 				</dict>
 			</array>
 		</dict>
+	</dict>
+	<key>mPaaSInternal</key>
+	<dict>
+		<key>SyncPort</key>
+		<string>443</string>
+		<key>SyncServer</key>
+		<string>msync.mpaas.cn-hangzhou.aliyuncs.com</string>
 	</dict>
 </dict>
 </plist>
