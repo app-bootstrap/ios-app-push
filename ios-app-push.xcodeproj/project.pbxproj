@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		168E70FB418461D0BE74905C /* MPaaSInterface+ios-app-push.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B0949D8ECC5A55B9BC0C15 /* MPaaSInterface+ios-app-push.m */; };
 		371453CF26A75C12AD29B745 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BEFF040CFD636D4139C346 /* SystemConfiguration.framework */; };
-		3AA732D9767734D664D6EBCE /* meta.config in Resources */ = {isa = PBXBuildFile; fileRef = 630B8C8871C666F218F66968 /* meta.config */; };
 		3D285B899925CB99DF25C584 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C8729E27EC220B43AB042C /* CoreTelephony.framework */; };
 		5409729BBB9B4393D51F4AC9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5147B28859392C3718753AF /* WebKit.framework */; };
 		5B22066BF395D31A495A6AFD /* Pods_ios_app_pushTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CA859FB789F4E74BCC7097 /* Pods_ios_app_pushTests.framework */; };
@@ -25,13 +24,15 @@
 		63EACB3C2717BF0900976F70 /* ios_app_pushUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EACB3B2717BF0900976F70 /* ios_app_pushUITestsLaunchTests.m */; };
 		6F231F6687C190119CBAB498 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C8729E27EC220B43AB042C /* CoreTelephony.framework */; };
 		8BD9D54411456115B8C340DD /* Pods_ios_app_push_ios_app_pushUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148ED7CBCFDE03051E45F90C /* Pods_ios_app_push_ios_app_pushUITests.framework */; };
-		996549250E9EC7E4DE13AC6D /* meta.config in Resources */ = {isa = PBXBuildFile; fileRef = 37977460B5059087EE9ED2FF /* meta.config */; };
 		ABE7A226346C1BA6ECA58747 /* yw_1222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 585F69514D53180FBE4C1EE1 /* yw_1222.jpg */; };
 		C012AEF6FD6F6202BCB363AB /* yw_1222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F54BC7BF1DE99D45BD2FD9D1 /* yw_1222.jpg */; };
 		C3973D12AF93ECA32B023BD6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5147B28859392C3718753AF /* WebKit.framework */; };
 		CA802475D33192533D3314B4 /* MPaaSInterface+ios-app-pushUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AECF451249E3532CBF88355C /* MPaaSInterface+ios-app-pushUITests.m */; };
 		CE3BC49CD3466856F0BA91A2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BEFF040CFD636D4139C346 /* SystemConfiguration.framework */; };
 		CEB90DF664467E0ED119A708 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3BD119ECD8ED5CAD5DBD0E /* CoreMotion.framework */; };
+		E0524BA1CFF4F2192AE71D76 /* Pods_ios_app_push.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C375DB4DA26B2F3EE1875D48 /* Pods_ios_app_push.framework */; };
+		E55FE3CB4D2DB4C182B0481F /* meta.config in Resources */ = {isa = PBXBuildFile; fileRef = 68B6E459AB79ED2477F3AFC2 /* meta.config */; };
+		EAF3EE5F5DABA73D63B3A7EF /* meta.config in Resources */ = {isa = PBXBuildFile; fileRef = AE9E079BD3ECAB2CB06376EE /* meta.config */; };
 		FD1D245C668982340728ACB7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3BD119ECD8ED5CAD5DBD0E /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,13 +58,12 @@
 		148ED7CBCFDE03051E45F90C /* Pods_ios_app_push_ios_app_pushUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_app_push_ios_app_pushUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3AB5417E222964A41A2AA7 /* Pods-ios-app-push-ios-app-pushUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-app-push-ios-app-pushUITests.release.xcconfig"; path = "Target Support Files/Pods-ios-app-push-ios-app-pushUITests/Pods-ios-app-push-ios-app-pushUITests.release.xcconfig"; sourceTree = "<group>"; };
 		22C8D6E104C037E4DA47066F /* MPaaSInterface+ios-app-push.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPaaSInterface+ios-app-push.h"; sourceTree = "<group>"; };
-		37977460B5059087EE9ED2FF /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = meta.config; sourceTree = "<group>"; };
 		50BEFF040CFD636D4139C346 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		52D32DBC3234E4010C79CA11 /* Pods-ios-app-push.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-app-push.debug.xcconfig"; path = "Target Support Files/Pods-ios-app-push/Pods-ios-app-push.debug.xcconfig"; sourceTree = "<group>"; };
 		55DFA024434CDE5DC634583F /* ios-app-pushUITests-mPaaS-Headers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ios-app-pushUITests-mPaaS-Headers.h"; sourceTree = "<group>"; };
 		585F69514D53180FBE4C1EE1 /* yw_1222.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
 		58EC0300441CDB39CF16BBD3 /* Pods-ios-app-pushTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-app-pushTests.release.xcconfig"; path = "Target Support Files/Pods-ios-app-pushTests/Pods-ios-app-pushTests.release.xcconfig"; sourceTree = "<group>"; };
-		630B8C8871C666F218F66968 /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = meta.config; sourceTree = "<group>"; };
+		63707C482719E56C000C5B0C /* ios-app-push.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ios-app-push.entitlements"; sourceTree = "<group>"; };
 		63EACB102717BF0800976F70 /* ios-app-push.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-app-push.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EACB132717BF0800976F70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63EACB142717BF0800976F70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,11 +81,13 @@
 		63EACB352717BF0900976F70 /* ios-app-pushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-app-pushUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EACB392717BF0900976F70 /* ios_app_pushUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_app_pushUITests.m; sourceTree = "<group>"; };
 		63EACB3B2717BF0900976F70 /* ios_app_pushUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_app_pushUITestsLaunchTests.m; sourceTree = "<group>"; };
+		68B6E459AB79ED2477F3AFC2 /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; path = meta.config; sourceTree = "<group>"; };
 		6E2001F64FE7E059A8E82694 /* Pods-ios-app-push.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-app-push.release.xcconfig"; path = "Target Support Files/Pods-ios-app-push/Pods-ios-app-push.release.xcconfig"; sourceTree = "<group>"; };
 		79CA859FB789F4E74BCC7097 /* Pods_ios_app_pushTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_app_pushTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DC21442925A3952B2F4A3D /* ios-app-push-mPaaS-Headers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ios-app-push-mPaaS-Headers.h"; sourceTree = "<group>"; };
 		97748B49BAA988870E58A606 /* Pods-ios-app-pushTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-app-pushTests.debug.xcconfig"; path = "Target Support Files/Pods-ios-app-pushTests/Pods-ios-app-pushTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A6B0949D8ECC5A55B9BC0C15 /* MPaaSInterface+ios-app-push.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPaaSInterface+ios-app-push.m"; sourceTree = "<group>"; };
+		AE9E079BD3ECAB2CB06376EE /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; path = meta.config; sourceTree = "<group>"; };
 		AECF451249E3532CBF88355C /* MPaaSInterface+ios-app-pushUITests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPaaSInterface+ios-app-pushUITests.m"; sourceTree = "<group>"; };
 		B1D1413B92EC981C252C9805 /* Pods-ios-app-push-ios-app-pushUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-app-push-ios-app-pushUITests.debug.xcconfig"; path = "Target Support Files/Pods-ios-app-push-ios-app-pushUITests/Pods-ios-app-push-ios-app-pushUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1C8729E27EC220B43AB042C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
@@ -105,6 +107,7 @@
 				FD1D245C668982340728ACB7 /* CoreMotion.framework in Frameworks */,
 				3D285B899925CB99DF25C584 /* CoreTelephony.framework in Frameworks */,
 				CE3BC49CD3466856F0BA91A2 /* SystemConfiguration.framework in Frameworks */,
+				E0524BA1CFF4F2192AE71D76 /* Pods_ios_app_push.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,11 +148,11 @@
 		39FC1C25C5AE469E61F616B6 /* ios-app-push */ = {
 			isa = PBXGroup;
 			children = (
-				630B8C8871C666F218F66968 /* meta.config */,
 				585F69514D53180FBE4C1EE1 /* yw_1222.jpg */,
 				92DC21442925A3952B2F4A3D /* ios-app-push-mPaaS-Headers.h */,
 				CEBE03D333F2A577D3061A8E /* ios-app-push-Prefix.pch */,
 				4B10B4D34B30FADEC438D0B8 /* mPaas */,
+				AE9E079BD3ECAB2CB06376EE /* meta.config */,
 			);
 			path = "ios-app-push";
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 		63EACB122717BF0800976F70 /* ios-app-push */ = {
 			isa = PBXGroup;
 			children = (
+				63707C482719E56C000C5B0C /* ios-app-push.entitlements */,
 				63EACB132717BF0800976F70 /* AppDelegate.h */,
 				63EACB142717BF0800976F70 /* AppDelegate.m */,
 				63EACB162717BF0800976F70 /* SceneDelegate.h */,
@@ -235,10 +239,10 @@
 		7958E1D2FDD3F96B1F6D07E5 /* ios-app-pushUITests */ = {
 			isa = PBXGroup;
 			children = (
-				37977460B5059087EE9ED2FF /* meta.config */,
 				F54BC7BF1DE99D45BD2FD9D1 /* yw_1222.jpg */,
 				55DFA024434CDE5DC634583F /* ios-app-pushUITests-mPaaS-Headers.h */,
 				9575C92BD8421FCF42BC9D99 /* mPaas */,
+				68B6E459AB79ED2477F3AFC2 /* meta.config */,
 			);
 			path = "ios-app-pushUITests";
 			sourceTree = "<group>";
@@ -393,8 +397,8 @@
 				63EACB232717BF0900976F70 /* LaunchScreen.storyboard in Resources */,
 				63EACB202717BF0900976F70 /* Assets.xcassets in Resources */,
 				63EACB1E2717BF0800976F70 /* Main.storyboard in Resources */,
-				3AA732D9767734D664D6EBCE /* meta.config in Resources */,
 				ABE7A226346C1BA6ECA58747 /* yw_1222.jpg in Resources */,
+				EAF3EE5F5DABA73D63B3A7EF /* meta.config in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,8 +413,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				996549250E9EC7E4DE13AC6D /* meta.config in Resources */,
 				C012AEF6FD6F6202BCB363AB /* yw_1222.jpg in Resources */,
+				E55FE3CB4D2DB4C182B0481F /* meta.config in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,6 +709,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ios-app-push/ios-app-push.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D8A9Y93768;
@@ -738,6 +743,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ios-app-push/ios-app-push.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D8A9Y93768;
@@ -826,7 +832,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "webapp-ios-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-app-push";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -848,7 +854,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "webapp-ios-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios-app-push";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
