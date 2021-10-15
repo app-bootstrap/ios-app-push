@@ -73,7 +73,7 @@
     completionHandler(UNNotificationPresentationOptionNone);
 }
 
-//// 基于 iOS 10 及以上的系统版本
+// 基于 iOS 10 及以上的系统版本
 - (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void(^)(void))completionHandler
 {
     NSDictionary *userInfo = response.notification.request.content.userInfo;

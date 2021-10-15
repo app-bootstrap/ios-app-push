@@ -81,13 +81,13 @@
 		63EACB352717BF0900976F70 /* ios-app-pushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-app-pushUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EACB392717BF0900976F70 /* ios_app_pushUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_app_pushUITests.m; sourceTree = "<group>"; };
 		63EACB3B2717BF0900976F70 /* ios_app_pushUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_app_pushUITestsLaunchTests.m; sourceTree = "<group>"; };
-		68B6E459AB79ED2477F3AFC2 /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; path = meta.config; sourceTree = "<group>"; };
+		68B6E459AB79ED2477F3AFC2 /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = meta.config; sourceTree = "<group>"; };
 		6E2001F64FE7E059A8E82694 /* Pods-ios-app-push.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-app-push.release.xcconfig"; path = "Target Support Files/Pods-ios-app-push/Pods-ios-app-push.release.xcconfig"; sourceTree = "<group>"; };
 		79CA859FB789F4E74BCC7097 /* Pods_ios_app_pushTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_app_pushTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DC21442925A3952B2F4A3D /* ios-app-push-mPaaS-Headers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ios-app-push-mPaaS-Headers.h"; sourceTree = "<group>"; };
 		97748B49BAA988870E58A606 /* Pods-ios-app-pushTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-app-pushTests.debug.xcconfig"; path = "Target Support Files/Pods-ios-app-pushTests/Pods-ios-app-pushTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A6B0949D8ECC5A55B9BC0C15 /* MPaaSInterface+ios-app-push.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPaaSInterface+ios-app-push.m"; sourceTree = "<group>"; };
-		AE9E079BD3ECAB2CB06376EE /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; path = meta.config; sourceTree = "<group>"; };
+		AE9E079BD3ECAB2CB06376EE /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = meta.config; sourceTree = "<group>"; };
 		AECF451249E3532CBF88355C /* MPaaSInterface+ios-app-pushUITests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPaaSInterface+ios-app-pushUITests.m"; sourceTree = "<group>"; };
 		B1D1413B92EC981C252C9805 /* Pods-ios-app-push-ios-app-pushUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-app-push-ios-app-pushUITests.debug.xcconfig"; path = "Target Support Files/Pods-ios-app-push-ios-app-pushUITests/Pods-ios-app-push-ios-app-pushUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1C8729E27EC220B43AB042C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
@@ -641,7 +641,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -695,7 +695,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
