@@ -1,0 +1,14 @@
+//
+//  ios-app-push-Prefix.pch
+//  ios-app-push
+//
+//  Created by xdf on 2021/10/14.
+
+// MPAAS HEADERS BEGIN
+// This part is maintained by MPaaS plugin automatically. 
+#ifdef __OBJC__
+
+#import "ios-app-push-mPaaS-Headers.h"
+
+#endif
+// MPAAS HEADERS END
